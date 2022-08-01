@@ -1,6 +1,6 @@
 image:
   file: .gitpod/Dockerfile
   
-# bump trigger: 0
+# bump trigger: 1
 tasks:
 - init: bash -c "for i in $(seq -s " " 1 600); do echo "$i"; sleep 1; done"

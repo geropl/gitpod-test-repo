@@ -1,6 +1,6 @@
 image:
   file: .gitpod/Dockerfile
 
-# bump trigger: 7
+# bump trigger: 8
 tasks:
 - init: bash -c "for i in $(seq -s " " 1 60); do echo "$i"; sleep 1; done; echo '3rd prebuild' > which.txt"

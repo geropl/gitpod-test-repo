@@ -3,4 +3,4 @@ image:
 
 # bump trigger: 7
 tasks:
-- init: bash -c "for i in $(seq -s " " 1 60); do echo "$i"; sleep 1; done; echo '1st prebuild' > which.txt"
+- init: bash -c "for i in $(seq -s " " 1 60); do echo "$i"; sleep 1; done; echo '2nd prebuild' > which.txt"

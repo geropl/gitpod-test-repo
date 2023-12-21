@@ -1,4 +1,4 @@
-FROM test10.onemo.de/test
+FROM ubuntu:latest
 
 ENV TRIGGER_REBUILD=25
 

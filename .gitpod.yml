@@ -3,4 +3,4 @@ image:
 
 # bump trigger: 8
 tasks:
-- init: exit 101
+- init: echo "test output" && exit 101

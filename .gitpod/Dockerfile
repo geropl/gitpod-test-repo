@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM gitpod/workspace-base
 
 ENV TRIGGER_REBUILD=25
 

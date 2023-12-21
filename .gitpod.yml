@@ -3,4 +3,4 @@ image:
 
 # bump trigger: 8
 tasks:
-- init: sleep 10 && exit 101
+- init: exit 101

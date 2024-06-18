@@ -5,7 +5,7 @@ image:
 tasks:
   - init: |
       for i in $(seq 1 10); do echo $i; sleep 1; done;
-      echo '3rd prebuild' > which.txt"
+      echo '3rd prebuild' > which.txt;
   - name: Short Script Task 🐇
     init: |
       for i in $(seq 1 20); do echo $i; sleep 1; done;

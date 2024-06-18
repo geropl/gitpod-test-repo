@@ -3,10 +3,16 @@ image:
 
 # bump trigger: 11
 tasks:
-  - init: bash -c "for i in $(seq -s " " 1 60); do echo "$i"; sleep 1; done; echo '3rd prebuild' > which.txt"
+  - init: |
+      for i in $(seq 1 10); do echo $i; sleep 1; done;
+      echo '3rd prebuild' > which.txt"
   - name: Short Script Task 🐇
-    init: sleep 20 && sudo du -h / --max-depth=1 
+    init: |
+      for i in $(seq 1 20); do echo $i; sleep 1; done;
+      sudo du -h / --max-depth=1 
     command: echo 'start script'
   - name: Long Script task
-    init: sleep 60 && sudo du -h / --max-depth=1 
+    init: |
+      for i in $(seq 1 30); do echo $i; sleep 1; done;
+      sudo du -h / --max-depth=1 
     command: echo 'start script'

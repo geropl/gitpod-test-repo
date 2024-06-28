@@ -8,6 +8,7 @@ tasks:
     init: |
       for i in $(seq 1 10); do echo $i; sleep 1; done;
       echo '3rd prebuild' > which.txt;
+      env;
   - name: Short Script Task 🐇
     before: |
       echo "before task!"

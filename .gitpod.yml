@@ -1,0 +1,13 @@
+tasks:
+ - before: |
+     echo "before 1 (headless: $GITPOD_HEADLESS)"
+   command: |
+     echo "command 1 (headless: $GITPOD_HEADLESS)"
+   init: |
+     echo "init 1 (headless: $GITPOD_HEADLESS)"
+ - before: |
+     echo "before 2 (headless: $GITPOD_HEADLESS)"
+   command: |
+     echo "command 2 (headless: $GITPOD_HEADLESS)"
+   init: |
+     echo "init 2 (headless: $GITPOD_HEADLESS)"

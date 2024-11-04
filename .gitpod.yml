@@ -1,14 +1,17 @@
 tasks:
   - init: echo $VAR > /workspace/task-1-init.log
-    command: echo $VAR
+    command: "echo \"Task 1: $VAR\""
     env:
       VAR: "task 1"
       VAR2: "local 1"
   - init: echo $VAR > /workspace/task-2-init.log
-    command: echo $VAR
+    command: "echo \"Task 2: $VAR\""
     env:
       VAR: "task 2"
       VAR2: "local 2"
+  - init: echo $VAR > /workspace/task-3-init.log
+    command: "echo \"Task 3: $VAR\""
+
 
 env:
   VAR: "gitpodyml"

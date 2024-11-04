@@ -1,0 +1,15 @@
+tasks:
+  - init: echo $VAR > /workspace/task-1-init.log
+    command: echo $VAR
+    env:
+      VAR: "task 1"
+      VAR2: "local 1"
+  - init: echo $VAR > /workspace/task-2-init.log
+    command: echo $VAR
+    env:
+      VAR: "task 2"
+      VAR2: "local 2"
+
+env:
+  VAR: "gitpodyml"
+  VAR2: "global"

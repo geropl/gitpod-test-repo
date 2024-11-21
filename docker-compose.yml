@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  failing-service:
+    image: alpine:latest
+    command: sh -c "exit 1"  # Command that exits immediately with a failure
+    restart: always          # Restart policy to always try to restart the container
+    deploy:
+      restart_policy:
+        delay: 3s            # Delay between restarts

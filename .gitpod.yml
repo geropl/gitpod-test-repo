@@ -1,2 +1,2 @@
-image: geropl/workspace-base:latest
-
+image:
+  file: gitpod.Dockerfile

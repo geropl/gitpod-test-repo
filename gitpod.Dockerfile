@@ -1,4 +1,4 @@
-FROM geropl/workspace-base-2:latest
+FROM geropl/workspace-base-3:latest
 
 RUN echo "was here" > /home/gitpod/proof
 

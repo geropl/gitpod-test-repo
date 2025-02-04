@@ -1,1 +1,1 @@
-FROM geropl/workspace-base:latest
+FROM geropl/workspace-base-2:latest

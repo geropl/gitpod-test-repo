@@ -2,4 +2,4 @@ FROM gitpod/workspace-base:latest
 
 ENV TRIGGER_REBUILD=61
 
-RUN bash -c 'for i in $(seq 1 120); do echo $i; sleep 1; done;'
+RUN bash -c 'for i in $(seq 1 30); do echo $i; sleep 1; done;'

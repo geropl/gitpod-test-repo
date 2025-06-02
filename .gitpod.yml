@@ -1,6 +1,8 @@
-image: python
+image: bash
 
 # bump trigger: 12
+# bash
 tasks:
 - init: bash -c 'echo hello'
 - init: bash -c 'echo test'
+- init: bash -c 'echo bash'

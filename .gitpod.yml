@@ -1,5 +1,4 @@
-image:
-  file: .gitpod/Dockerfile
+image: python
 
 # bump trigger: 11
 tasks:

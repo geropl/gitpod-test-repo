@@ -1,6 +1,6 @@
-image: docker.io/library/bash
+image: python:latest
 
-# bump trigger: 12
+# bump trigger: 13
 # bash
 tasks:
 - init: bash -c 'echo hello'

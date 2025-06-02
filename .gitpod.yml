@@ -1,4 +1,4 @@
-image: bash
+image: docker.io/library/bash
 
 # bump trigger: 12
 # bash
